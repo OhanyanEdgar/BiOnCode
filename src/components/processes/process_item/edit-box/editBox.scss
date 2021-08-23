@@ -1,0 +1,45 @@
+
+
+.editBox{
+    &_text{
+        margin: 5px;
+        padding-top: 5px;
+        color: red;
+        &:placeholder{
+            color: red;
+        }
+        & input{
+            // border-bottom: 1px solid white;
+            border: none;
+            color: white;
+            background-color: transparent;
+            outline: none;
+
+            &:focus{
+                border-bottom: 1px solid rgba(209, 204, 204, 0.712);
+
+                background-color: transparent;
+            }
+        }
+    }
+
+    &_color-icon{
+        display: flex;
+        justify-content: space-between;
+        margin: 5px;
+        &_color{
+
+        }
+        &_icon{
+            & input{
+                width: 87px;
+            }
+        }
+    }
+
+    &_done{
+        margin: 5px;
+        width: 94%;
+
+    }
+}

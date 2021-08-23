@@ -1,0 +1,23 @@
+
+.typesMenuAdd{
+
+    &_form{
+        display: flex;
+
+        &_input{
+            width: 80%;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            color: white;
+        }
+
+        &_button{
+            display: flex;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}

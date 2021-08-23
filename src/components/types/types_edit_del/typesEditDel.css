@@ -1,0 +1,21 @@
+.typesEditDel {
+  position: absolute;
+  top: 18px;
+  right: -18px;
+  opacity: 0;
+}
+
+.typesEditDel:hover {
+  opacity: 1;
+}
+
+.typesEditDel_button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.typesEditDel_button_icon {
+  cursor: pointer;
+}
+/*# sourceMappingURL=typesEditDel.css.map */

@@ -1,0 +1,32 @@
+.processes_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #474747;
+  height: 200px;
+  position: relative;
+}
+
+.processes_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 100px;
+}
+
+.processes_gradient-line {
+  height: 4px;
+  position: absolute;
+  top: 118px;
+  left: 55px;
+}
+
+.abcdefg g {
+  fill: #F5961B;
+}
+/*# sourceMappingURL=processes.css.map */

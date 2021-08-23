@@ -1,0 +1,52 @@
+.popup-edit {
+  position: absolute;
+  height: 17px;
+  opacity: 0;
+}
+
+.popup-edit:hover {
+  opacity: 1;
+}
+
+.popup-edit_box {
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.popup-edit_box_del-button {
+  margin: 5px;
+  border: 2px solid;
+  border-radius: 5px;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.popup-edit_box_edit-button {
+  margin: 5px;
+}
+
+.popup-edit_box_edit-button .button {
+  height: 32px;
+  font-weight: bold;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: inherit;
+  background-color: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.popup-content {
+  background-color: #545662 !important;
+  width: inherit !important;
+  border: none !important;
+  border-radius: 5px !important;
+}
+
+.popup-arrow {
+  opacity: 0;
+}
+/*# sourceMappingURL=processPopupEdit.css.map */

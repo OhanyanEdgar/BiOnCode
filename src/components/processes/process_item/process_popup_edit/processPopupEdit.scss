@@ -1,0 +1,51 @@
+
+.popup-edit{
+    position: absolute;
+    height: 17px;
+    opacity: 0;
+    &:hover{
+        opacity: 1;
+    }
+
+    &_box{
+        border-radius: 5px;
+        display: flex;
+        &_del-button{
+            margin: 5px;
+            border: 2px solid;
+            border-radius: 5px;
+            background-color: transparent;
+            outline: none;
+            cursor: pointer;
+        }
+    
+        &_edit-button{
+            margin: 5px;
+            & .button{
+                height: 32px;
+                font-weight: bold;
+                border: 2px solid;
+                border-radius: 5px;
+                border-color: inherit;
+                background-color: transparent;
+                color: inherit;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+
+
+.popup-content{
+    background-color: #545662 !important;
+    width: inherit !important;
+    border: none !important;
+    border-radius: 5px !important;
+}
+
+
+.popup-arrow{
+    opacity: 0;
+}
+

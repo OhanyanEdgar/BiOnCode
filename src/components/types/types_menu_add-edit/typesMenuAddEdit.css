@@ -1,0 +1,24 @@
+.typesMenuAdd_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.typesMenuAdd_form_input {
+  width: 80%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.typesMenuAdd_form_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+/*# sourceMappingURL=typesMenuAddEdit.css.map */

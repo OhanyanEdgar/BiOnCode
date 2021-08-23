@@ -1,0 +1,23 @@
+.typesMenuItemAddEdit_edit-text {
+  margin-bottom: 5px;
+  outline: none;
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #8d8a8a;
+}
+
+.typesMenuItemAddEdit_edit-pic {
+  width: 87px;
+  outline: none;
+}
+
+.typesMenuItemAddEdit div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=typesMenuItemAddEdit.css.map */

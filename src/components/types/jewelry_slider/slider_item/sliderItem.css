@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.slider-item {
+  background-color: white;
+  border-radius: 5px;
+  width: 200px;
+  height: 250px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.slider-item_pic-box {
+  padding-top: 9px;
+  height: 180px;
+}
+
+.slider-item_pic {
+  margin: 0 auto;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.slider-item_text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #5A5A5A;
+  font-weight: normal;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slider-item_text h3 {
+  width: 150px;
+}
+
+.slider-item_edit-del {
+  position: absolute;
+  bottom: 50px;
+  left: 168px;
+}
+/*# sourceMappingURL=sliderItem.css.map */

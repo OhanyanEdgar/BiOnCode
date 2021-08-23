@@ -1,0 +1,80 @@
+.typesMenu {
+  color: white;
+}
+
+.typesMenu_row {
+  margin-left: 102px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 64px;
+}
+
+.typesMenu_line-add {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-bottom: 49px;
+}
+
+.typesMenu_line {
+  position: absolute;
+  border: 1px solid black;
+  height: 0;
+  top: -4px;
+}
+
+.typesMenu_add {
+  position: absolute;
+  left: 476px;
+  top: -14px;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.typesMenu_add p {
+  margin: 0;
+  font-size: 20px;
+}
+
+.typesMenu_addItem {
+  position: absolute;
+  right: 100px;
+  top: -14px;
+}
+
+.typesMenu_addItem_trigger {
+  width: 160px;
+  height: 32px;
+  color: white;
+  background: #F5961B;
+  border: none;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 800;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.typesMenu_addItem_trigger span {
+  font-weight: 300;
+  font-size: 27px;
+  margin-right: 5px;
+}
+/*# sourceMappingURL=typesMenu.css.map */

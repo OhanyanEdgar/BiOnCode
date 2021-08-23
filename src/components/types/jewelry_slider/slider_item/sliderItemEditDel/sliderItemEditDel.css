@@ -1,0 +1,19 @@
+.sliderItemEditDel {
+  position: absolute;
+  opacity: 0;
+}
+
+.sliderItemEditDel:hover {
+  opacity: 1;
+}
+
+.sliderItemEditDel_button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.sliderItemEditDel_button_icon {
+  cursor: pointer;
+}
+/*# sourceMappingURL=sliderItemEditDel.css.map */

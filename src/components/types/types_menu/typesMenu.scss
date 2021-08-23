@@ -1,0 +1,71 @@
+
+.typesMenu{
+    color: white;
+
+    &_row{
+        margin-left: 102px;
+        display: flex;
+        height: 64px;
+    }
+
+    &_line-add{
+        display: flex;
+        position: relative;
+        margin-bottom: 49px;
+    }
+    &_line{
+        position: absolute;
+        border: 1px solid black;
+        height: 0;
+        top: -4px;
+    }
+    
+    &_add{
+        position: absolute;
+        left: 476px;
+        top: -14px;
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+        background-color: white;
+        cursor: pointer;
+        & p{
+            margin: 0;
+            font-size: 20px;
+        }
+    }
+
+    &_addItem{
+        position: absolute;
+        right: 100px;
+        top: -14px;
+
+        &_trigger{
+            width: 160px;
+            height: 32px;
+            color: white;
+            background: #F5961B;
+            border: none;
+            border-radius: 25px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 800;
+            
+            text-align: center;
+            justify-content: center;
+
+            cursor: pointer;
+            & span {
+                font-weight: 300;
+                font-size: 27px;
+                margin-right: 5px;
+            }
+
+        }
+    }
+
+}

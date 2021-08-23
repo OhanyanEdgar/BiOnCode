@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Roboto&display=swap');
+
+.typesItem{
+    width: 104px;
+    border-bottom: 6px solid transparent;
+    margin-right: 14px;
+    position: relative;
+    &_name{
+        // width: 87%;
+        cursor: pointer;
+        font-size: 18px;
+        line-height: 22px;
+        font-family: Montserrat;
+    }
+}
+
+.avtive-type{
+    border-color: red;
+    z-index: 1;
+}

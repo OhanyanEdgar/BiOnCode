@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,OAAO,CAAA;EACH,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,OAAO;EACnB,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;CAiBtB;;AAfI,AAAD,WAAK,CAAA;EACD,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,IAAI;EACb,QAAQ,EAAE,MAAM;CASnB;;AAdA,AAOG,WAPC,CAOC,aAAa,CAAA;EACX,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "jewelrySlider.scss"
+    ],
+    "names": [],
+    "file": "jewelrySlider.css"
+}

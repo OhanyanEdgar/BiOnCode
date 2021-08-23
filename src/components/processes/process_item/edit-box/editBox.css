@@ -1,0 +1,41 @@
+.editBox_text {
+  margin: 5px;
+  padding-top: 5px;
+  color: red;
+}
+
+.editBox_text:placeholder {
+  color: red;
+}
+
+.editBox_text input {
+  border: none;
+  color: white;
+  background-color: transparent;
+  outline: none;
+}
+
+.editBox_text input:focus {
+  border-bottom: 1px solid rgba(209, 204, 204, 0.712);
+  background-color: transparent;
+}
+
+.editBox_color-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 5px;
+}
+
+.editBox_color-icon_icon input {
+  width: 87px;
+}
+
+.editBox_done {
+  margin: 5px;
+  width: 94%;
+}
+/*# sourceMappingURL=editBox.css.map */

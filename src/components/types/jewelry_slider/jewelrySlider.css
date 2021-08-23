@@ -1,0 +1,25 @@
+.slider {
+  height: 350px;
+  background: #383A45;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider_row {
+  height: 250px;
+  width: 85%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+.slider_row .slick-slider {
+  width: 100%;
+}
+/*# sourceMappingURL=jewelrySlider.css.map */

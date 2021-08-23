@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,kBAAkB,CAAA;EACd,QAAQ,EAAE,QAAQ;EAGlB,OAAO,EAAE,CAAC;CAsBb;;AA1BD,AAMI,kBANc,AAMb,MAAM,CAAA;EACH,OAAO,EAAE,CAAC;CACb;;AAUA,AAAD,yBAAQ,CAAA;EACJ,gBAAgB,EAAE,WAAW;EAC7B,OAAO,EAAE,IAAI;EACb,MAAM,EAAE,IAAI;CAIf;;AAHI,AAAD,8BAAM,CAAA;EACF,MAAM,EAAE,OAAO;CAClB",
+    "sources": [
+        "sliderItemEditDel.scss"
+    ],
+    "names": [],
+    "file": "sliderItemEditDel.css"
+}

@@ -1,0 +1,29 @@
+
+
+.sliderItemEditDel{
+    position: absolute;
+    // top: 18px;
+    // right: -18px;
+    opacity: 0;
+
+    &:hover{
+        opacity: 1;
+    }
+
+    &_edit{
+
+    }
+
+    &_del{
+
+    }
+
+    &_button{
+        background-color: transparent;
+        outline: none;
+        border: none;
+        &_icon{
+            cursor: pointer;
+        }
+    }
+}
